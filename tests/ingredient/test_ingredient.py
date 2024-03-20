@@ -6,10 +6,6 @@ from src.models.ingredient import (
 
 # Req 1
 def test_ingredient():
-    pass
-
-
-def test_ingredient_init():
     ingredient = Ingredient("bacon")
     assert ingredient.name == "bacon"
 
